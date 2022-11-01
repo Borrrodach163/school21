@@ -1,0 +1,693 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite>
+	<id>S1</id>
+	<name>Master</name>
+	<description></description>
+	<sections>
+		<section>
+		<name>Выбор полиса</name>
+		<description></description>
+						<cases>
+												<case>
+				<id>C1</id>
+				<title>1-1</title>
+												<template>Test Case (Steps)</template>
+																<type>Functional</type>
+																<priority>Critical</priority>
+																				<estimate></estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>платформа iOS
+браузер Safari
+
+</preconds>
+										<steps_separated><step>
+<index>1</index><content>Открыть сайт https://online.sber.insure/store/propertyins/</content><expected>Открывается страница сайта Сбер Страхование с калькулятором страхования</expected></step>
+<step>
+<index>2</index><content>В блоке &amp;ldquo;что будет застраховано&amp;rdquo; выберите &amp;ldquo;Квартира&amp;rdquo;</content><expected>кнопка Квартира выделена зеленой окантовкой</expected></step>
+<step>
+<index>3</index><content>В блоке &amp;ldquo;Где находится недвижимость&amp;rdquo; выберите регион проживания &amp;ldquo;г.Байконур&amp;rdquo;</content><expected>при начале ввода названия города окошко для ввода выделяется зеленой окантовкой, по мере ввода букв, появляется выпадающий список с подходящими регионами</expected></step>
+<step>
+<index>4</index><content>В блоке &amp;ldquo;Срок действия страхования&amp;rdquo; введите вручную дату начала страхования </content><expected>при клике на блок с датой он подсвечивается зеленой окантовкой, можно ввести дату не ранее минимально доступной дате начала страхования (через 14 дней от текущей даты), выбор даты ранее установленной не доступен</expected></step>
+<step>
+<index>5</index><content>В блоке &amp;ldquo;Особенности объекта&amp;rdquo; в строке &amp;ldquo;Сдается в аренду&amp;rdquo; выберите &amp;ldquo;Да&amp;rdquo;</content><expected>кнопка &amp;ldquo;Да&amp;rdquo; при нажатии выделена зеленой окантовкой</expected></step>
+<step>
+<index>6</index><content>В блоке &amp;ldquo;Особенности объекта&amp;rdquo; в строке &amp;ldquo;Расположена на первом или последнем этаже&amp;rdquo; выберите &amp;ldquo;Нет&amp;rdquo;</content><expected>кнопка &amp;ldquo;Нет&amp;rdquo; при нажатии выделена зеленой окантовкой</expected></step>
+<step>
+<index>7</index><content>В блоке &amp;ldquo;Особенности объекта&amp;rdquo; в строке &amp;ldquo;Установлена охранная сигнализация&amp;rdquo; выберите &amp;ldquo;Нет&amp;rdquo;</content><expected>кнопка &amp;ldquo;нет&amp;rdquo; при нажатии выделена зеленой окантовкой</expected></step>
+<step>
+<index>8</index><content>В блоке &amp;ldquo;Страховая сумма и объекты страхования&amp;rdquo; введите цифрами сумму 2 000 000</content><expected>Страховая сумма успешно изменена на 2 000 000</expected></step>
+<step>
+<index>9</index><content>В блоке &amp;ldquo;Промокод&amp;rdquo; введите промо код в поле &amp;ldquo;Промокод&amp;rdquo; и нажмите кнопку &amp;ldquo;Применить&amp;rdquo;</content><expected>При клике на поле &amp;ldquo;Промокод&amp;rdquo; надпись Промокод уходит на окантовку, вся окантовка кнопки меняет цвет на зеленый</expected></step>
+<step>
+<index>10</index><content> нажмите кнопку &amp;ldquo;Применить&amp;rdquo;</content><expected>при вводе корректного промокода он применяется, при вводе не корректного промокода появляется окно &amp;ldquo; Промокод {введенный промокод} не найден</expected></step>
+<step>
+<index>11</index><content>нажмите кнопку &amp;ldquo;Оформить&amp;rdquo;</content><expected>переход на этап &amp;ldquo;2.Оформление&amp;rdquo;</expected></step>
+</steps_separated>
+									</custom>
+							</case>
+															<case>
+				<id>C2</id>
+				<title>1-2</title>
+												<template>Test Case (Steps)</template>
+																<type>Functional</type>
+																<priority>Critical</priority>
+																				<estimate></estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>платформа MacOS
+
+браузер Safari
+
+
+</preconds>
+										<steps_separated><step>
+<index>1</index><content>Открыть сайт https://online.sber.insure/store/propertyins/</content><expected>Открывается страница сайта Сбер Страхование с калькулятором страхования</expected></step>
+<step>
+<index>2</index><content>В блоке &amp;ldquo;что будет застраховано&amp;rdquo; выберите &amp;ldquo;Квартира&amp;rdquo;</content><expected>кнопка Квартира выделена зеленой окантовкой</expected></step>
+<step>
+<index>3</index><content>В блоке &amp;ldquo;Где находится недвижимость&amp;rdquo; выберите регион проживания &amp;ldquo;г.Байконур&amp;rdquo;</content><expected>при начале ввода названия города окошко для ввода выделяется зеленой окантовкой, по мере ввода букв, появляется выпадающий список с подходящими регионами</expected></step>
+<step>
+<index>4</index><content>В блоке &amp;ldquo;Срок действия страхования&amp;rdquo; введите вручную дату начала страхования </content><expected>при клике на блок с датой он подсвечивается зеленой окантовкой, можно ввести дату не ранее минимально доступной дате начала страхования (через 14 дней от текущей даты), выбор даты ранее установленной не доступен</expected></step>
+<step>
+<index>5</index><content>В блоке &amp;ldquo;Особенности объекта&amp;rdquo; в строке &amp;ldquo;Сдается в аренду&amp;rdquo; выберите &amp;ldquo;Да&amp;rdquo;</content><expected>кнопка &amp;ldquo;Да&amp;rdquo; при нажатии выделена зеленой окантовкой</expected></step>
+<step>
+<index>6</index><content>В блоке &amp;ldquo;Особенности объекта&amp;rdquo; в строке &amp;ldquo;Расположена на первом или последнем этаже&amp;rdquo; выберите &amp;ldquo;Нет&amp;rdquo;</content><expected>кнопка &amp;ldquo;Нет&amp;rdquo; при нажатии выделена зеленой окантовкой</expected></step>
+<step>
+<index>7</index><content>В блоке &amp;ldquo;Особенности объекта&amp;rdquo; в строке &amp;ldquo;Установлена охранная сигнализация&amp;rdquo; выберите &amp;ldquo;Нет&amp;rdquo;</content><expected>кнопка &amp;ldquo;нет&amp;rdquo; при нажатии выделена зеленой окантовкой</expected></step>
+<step>
+<index>8</index><content>В блоке &amp;ldquo;Страховая сумма и объекты страхования&amp;rdquo; введите цифрами сумму 2 000 000</content><expected>Страховая сумма успешно изменена на 2 000 000
+</expected></step>
+<step>
+<index>9</index><content>В блоке &amp;ldquo;Промокод&amp;rdquo; введите промо код в поле &amp;ldquo;Промокод&amp;rdquo; и нажмите кнопку &amp;ldquo;Применить&amp;rdquo;</content><expected>При клике на поле &amp;ldquo;Промокод&amp;rdquo; надпись Промокод уходит на окантовку, вся окантовка кнопки меняет цвет на зеленый</expected></step>
+<step>
+<index>10</index><content>нажмите кнопку &amp;ldquo;Применить&amp;rdquo;</content><expected>при вводе корректного промокода он применяется, при вводе не корректного промокода появляется окно &amp;ldquo; Промокод {введенный промокод} не найден</expected></step>
+<step>
+<index>11</index><content>нажмите кнопку &amp;ldquo;Оформить&amp;rdquo;</content><expected>переход на этап &amp;ldquo;2.Оформление&amp;rdquo;</expected></step>
+</steps_separated>
+									</custom>
+							</case>
+															<case>
+				<id>C3</id>
+				<title>1-3</title>
+												<template>Test Case (Steps)</template>
+																<type>Functional</type>
+																<priority>Critical</priority>
+																				<estimate></estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>платформа iOS
+браузер Safari</preconds>
+										<steps_separated><step>
+<index>1</index><content>Открыть сайт https://online.sber.insure/store/propertyins/</content><expected>Открывается страница сайта Сбер Страхование с калькулятором страхования</expected></step>
+<step>
+<index>2</index><content>В блоке &amp;ldquo;что будет застраховано&amp;rdquo; выберите &amp;ldquo;Квартира&amp;rdquo;</content><expected>кнопка Квартира выделена зеленой окантовкой</expected></step>
+<step>
+<index>3</index><content>В блоке &amp;ldquo;Где находится недвижимость&amp;rdquo; выберите регион проживания &amp;ldquo;г.Байконур&amp;rdquo;</content><expected>при начале ввода названия города окошко для ввода выделяется зеленой окантовкой, по мере ввода букв, появляется выпадающий список с подходящими городами</expected></step>
+<step>
+<index>4</index><content>В блоке &amp;ldquo;Срок действия страхования&amp;rdquo; выберите через календарь дату начала страхования </content><expected>при клике на знак календаря, открывается календарь в котором можно выбрать дату не ранее минимально доступной дате начала страхования (через 14 дней от текущей даты), выбор даты ранее установленной не доступен</expected></step>
+<step>
+<index>5</index><content>В блоке &amp;ldquo;Особенности объекта&amp;rdquo; в строке &amp;ldquo;Сдается в аренду&amp;rdquo; выберите &amp;ldquo;Да&amp;rdquo;</content><expected>кнопка &amp;ldquo;Да&amp;rdquo; при нажатии выделена зеленой окантовкой</expected></step>
+<step>
+<index>6</index><content>В блоке &amp;ldquo;Особенности объекта&amp;rdquo; в строке &amp;ldquo;Расположена на первом или последнем этаже&amp;rdquo; выберите &amp;ldquo;Нет&amp;rdquo;</content><expected>кнопка &amp;ldquo;Нет&amp;rdquo; при нажатии выделена зеленой окантовкой</expected></step>
+<step>
+<index>7</index><content>В блоке &amp;ldquo;Особенности объекта&amp;rdquo; в строке &amp;ldquo;Установлена охранная сигнализация&amp;rdquo; выберите &amp;ldquo;Нет&amp;rdquo;</content><expected>кнопка &amp;ldquo;нет&amp;rdquo; при нажатии выделена зеленой окантовкой
+</expected></step>
+<step>
+<index>8</index><content>В блоке &amp;ldquo;Страховая сумма и объекты страхования&amp;rdquo; измените сумму на 2 000 000 посредством перетаскивания ползунка</content><expected>Страховая сумма успешно изменена на 2 000 000</expected></step>
+<step>
+<index>9</index><content>В блоке &amp;ldquo;Промокод&amp;rdquo; введите промо код в поле &amp;ldquo;Промокод&amp;rdquo; и нажмите кнопку &amp;ldquo;Применить&amp;rdquo;</content><expected>При клике на поле &amp;ldquo;Промокод&amp;rdquo; надпись Промокод уходит на окантовку, вся окантовка кнопки меняет цвет на зеленый</expected></step>
+<step>
+<index>10</index><content> нажмите кнопку &amp;ldquo;Применить&amp;rdquo;</content><expected>при вводе корректного промокода он применяется, при вводе не корректного промокода появляется окно &amp;ldquo; Промокод {введенный промокод} не найден</expected></step>
+<step>
+<index>11</index><content>нажмите кнопку &amp;ldquo;Оформить&amp;rdquo;</content><expected>переход на этап &amp;ldquo;2.Оформление&amp;rdquo;</expected></step>
+</steps_separated>
+									</custom>
+							</case>
+															<case>
+				<id>C4</id>
+				<title>1-4</title>
+												<template>Test Case (Steps)</template>
+																<type>Functional</type>
+																<priority>Critical</priority>
+																				<estimate></estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>платформа MacOS
+
+браузер Safari</preconds>
+										<steps_separated><step>
+<index>1</index><content>Открыть сайт https://online.sber.insure/store/propertyins/</content><expected>Открывается страница сайта Сбер Страхование с калькулятором страхования</expected></step>
+<step>
+<index>2</index><content>В блоке &amp;ldquo;что будет застраховано&amp;rdquo; выберите &amp;ldquo;Квартира&amp;rdquo;</content><expected>кнопка Квартира выделена зеленой окантовкой</expected></step>
+<step>
+<index>3</index><content>В блоке &amp;ldquo;Где находится недвижимость&amp;rdquo; выберите регион проживания &amp;ldquo;г.Байконур&amp;rdquo;</content><expected>при начале ввода названия города окошко для ввода выделяется зеленой окантовкой, по мере ввода букв, появляется выпадающий список с подходящими городами</expected></step>
+<step>
+<index>4</index><content>В блоке &amp;ldquo;Срок действия страхования&amp;rdquo; выберите через календарь дату начала страхования </content><expected>при клике на знак календаря, открывается календарь в котором можно выбрать дату не ранее минимально доступной дате начала страхования (через 14 дней от текущей даты), выбор даты ранее установленной не доступен</expected></step>
+<step>
+<index>5</index><content>В блоке &amp;ldquo;Особенности объекта&amp;rdquo; в строке &amp;ldquo;Сдается в аренду&amp;rdquo; выберите &amp;ldquo;Да&amp;rdquo;</content><expected>кнопка &amp;ldquo;Да&amp;rdquo; при нажатии выделена зеленой окантовкой</expected></step>
+<step>
+<index>6</index><content>В блоке &amp;ldquo;Особенности объекта&amp;rdquo; в строке &amp;ldquo;Расположена на первом или последнем этаже&amp;rdquo; выберите &amp;ldquo;Нет&amp;rdquo;</content><expected>кнопка &amp;ldquo;Нет&amp;rdquo; при нажатии выделена зеленой окантовкой</expected></step>
+<step>
+<index>7</index><content>В блоке &amp;ldquo;Особенности объекта&amp;rdquo; в строке &amp;ldquo;Установлена охранная сигнализация&amp;rdquo; выберите &amp;ldquo;Нет&amp;rdquo;</content><expected>кнопка &amp;ldquo;нет&amp;rdquo; при нажатии выделена зеленой окантовкой</expected></step>
+<step>
+<index>8</index><content>В блоке &amp;ldquo;Страховая сумма и объекты страхования&amp;rdquo; измените сумму на 2 000 000 посредством перетаскивания ползунка</content><expected>Страховая сумма успешно изменена на 2 000 000</expected></step>
+<step>
+<index>9</index><content>В блоке &amp;ldquo;Промокод&amp;rdquo; введите промо код в поле &amp;ldquo;Промокод&amp;rdquo; и нажмите кнопку &amp;ldquo;Применить&amp;rdquo;</content><expected>При клике на поле &amp;ldquo;Промокод&amp;rdquo; надпись Промокод уходит на окантовку, вся окантовка кнопки меняет цвет на зеленый</expected></step>
+<step>
+<index>10</index><content> нажмите кнопку &amp;ldquo;Применить&amp;rdquo;</content><expected>при вводе корректного промокода он применяется, при вводе не корректного промокода появляется окно &amp;ldquo; Промокод {введенный промокод} не найден</expected></step>
+<step>
+<index>11</index><content>нажмите кнопку &amp;ldquo;Оформить&amp;rdquo;</content><expected>переход на этап &amp;ldquo;2.Оформление&amp;rdquo;</expected></step>
+</steps_separated>
+									</custom>
+							</case>
+															<case>
+				<id>C11</id>
+				<title>1-5</title>
+												<template>Test Case (Steps)</template>
+																<type>Functional</type>
+																<priority>Critical</priority>
+																				<estimate></estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>платформа iOS
+браузер Safari
+
+</preconds>
+										<steps_separated><step>
+<index>1</index><content>Открыть сайт https://online.sber.insure/store/propertyins/</content><expected>Открывается страница сайта Сбер Страхование с калькулятором страхования</expected></step>
+<step>
+<index>2</index><content>В блоке &amp;ldquo;что будет застраховано&amp;rdquo; выберите &amp;ldquo;Дом&amp;rdquo;</content><expected>кнопка Дом выделена зеленой окантовкой</expected></step>
+<step>
+<index>3</index><content>В блоке &amp;ldquo;Где находится недвижимость&amp;rdquo; выберите регион проживания &amp;ldquo;респ Татарстан&amp;rdquo;</content><expected>при начале ввода названия города окошко для ввода выделяется зеленой окантовкой, по мере ввода букв, появляется выпадающий список с подходящими регионами</expected></step>
+<step>
+<index>4</index><content>В блоке &amp;ldquo;Срок действия страхования&amp;rdquo; введите вручную дату начала страхования </content><expected>при клике на блок с датой он подсвечивается зеленой окантовкой, можно ввести дату не ранее минимально доступной дате начала страхования (через 14 дней от текущей даты), выбор даты ранее установленной не доступен</expected></step>
+<step>
+<index>5</index><content>В блоке &amp;ldquo;Особенности объекта&amp;rdquo; в строке &amp;ldquo;Сдается в аренду&amp;rdquo; выберите &amp;ldquo;Да&amp;rdquo;</content><expected>кнопка &amp;ldquo;Да&amp;rdquo; при нажатии выделена зеленой окантовкой</expected></step>
+<step>
+<index>6</index><content>В блоке &amp;ldquo;Особенности объекта&amp;rdquo; в строке &amp;ldquo;Установлена охранная сигнализация&amp;rdquo; выберите &amp;ldquo;Нет&amp;rdquo;</content><expected>кнопка &amp;ldquo;Нет&amp;rdquo; при нажатии выделена зеленой окантовкой</expected></step>
+<step>
+<index>7</index><content>В блоке &amp;ldquo;Особенности объекта&amp;rdquo; в строке &amp;ldquo;Материал несущих стен&amp;rdquo; выберите &amp;ldquo;Дерево&amp;rdquo;</content><expected>кнопка &amp;ldquo;Дерево&amp;rdquo; при нажатии выделена зеленой окантовкой</expected></step>
+<step>
+<index>8</index><content>В блоке &amp;ldquo;Страховая сумма и объекты страхования&amp;rdquo; введите цифрами сумму 1 300 000</content><expected>Страховая сумма успешно изменена на 1 300 000</expected></step>
+<step>
+<index>9</index><content>В блоке &amp;ldquo;Промокод&amp;rdquo; введите промо код в поле &amp;ldquo;Промокод&amp;rdquo; и нажмите кнопку &amp;ldquo;Применить&amp;rdquo;</content><expected>При клике на поле &amp;ldquo;Промокод&amp;rdquo; надпись Промокод уходит на окантовку, вся окантовка кнопки меняет цвет на зеленый</expected></step>
+<step>
+<index>10</index><content> нажмите кнопку &amp;ldquo;Применить&amp;rdquo;</content><expected>при вводе корректного промокода он применяется, при вводе не корректного промокода появляется окно &amp;ldquo; Промокод {введенный промокод} не найден</expected></step>
+<step>
+<index>11</index><content>нажмите кнопку &amp;ldquo;Оформить&amp;rdquo;</content><expected>переход на этап &amp;ldquo;2.Оформление&amp;rdquo;</expected></step>
+</steps_separated>
+									</custom>
+							</case>
+															<case>
+				<id>C12</id>
+				<title>1-6</title>
+												<template>Test Case (Steps)</template>
+																<type>Functional</type>
+																<priority>Critical</priority>
+																				<estimate>60</estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>платформа MacOS
+
+браузер Safari
+
+
+</preconds>
+										<steps_separated><step>
+<index>1</index><content>Открыть сайт https://online.sber.insure/store/propertyins/</content><expected>Открывается страница сайта Сбер Страхование с калькулятором страхования</expected></step>
+<step>
+<index>2</index><content>В блоке &amp;ldquo;что будет застраховано&amp;rdquo; выберите &amp;ldquo;Дом&amp;rdquo;</content><expected>кнопка Дом выделена зеленой окантовкой</expected></step>
+<step>
+<index>3</index><content>В блоке &amp;ldquo;Где находится недвижимость&amp;rdquo; выберите регион проживания &amp;ldquo;респ Татарстан&amp;rdquo;</content><expected>при начале ввода названия города окошко для ввода выделяется зеленой окантовкой, по мере ввода букв, появляется выпадающий список с подходящими регионами</expected></step>
+<step>
+<index>4</index><content>В блоке &amp;ldquo;Срок действия страхования&amp;rdquo; введите вручную дату начала страхования </content><expected>при клике на блок с датой он подсвечивается зеленой окантовкой, можно ввести дату не ранее минимально доступной дате начала страхования (через 14 дней от текущей даты), выбор даты ранее установленной не доступен</expected></step>
+<step>
+<index>5</index><content>В блоке &amp;ldquo;Особенности объекта&amp;rdquo; в строке &amp;ldquo;Сдается в аренду&amp;rdquo; выберите &amp;ldquo;Да&amp;rdquo;</content><expected>кнопка &amp;ldquo;Да&amp;rdquo; при нажатии выделена зеленой окантовкой</expected></step>
+<step>
+<index>6</index><content>В блоке &amp;ldquo;Особенности объекта&amp;rdquo; в строке &amp;ldquo;Установлена охранная сигнализация&amp;rdquo; выберите &amp;ldquo;Нет&amp;rdquo;</content><expected>кнопка &amp;ldquo;Нет&amp;rdquo; при нажатии выделена зеленой окантовкой</expected></step>
+<step>
+<index>7</index><content>В блоке &amp;ldquo;Особенности объекта&amp;rdquo; в строке &amp;ldquo;Материал несущих стен&amp;rdquo; выберите &amp;ldquo;Дерево&amp;rdquo;</content><expected>кнопка &amp;ldquo;Дерево&amp;rdquo; при нажатии выделена зеленой окантовкой</expected></step>
+<step>
+<index>8</index><content>В блоке &amp;ldquo;Страховая сумма и объекты страхования&amp;rdquo; введите цифрами сумму 1 300 000</content><expected>Страховая сумма успешно изменена на 1 300 000
+</expected></step>
+<step>
+<index>9</index><content>В блоке &amp;ldquo;Промокод&amp;rdquo; введите промо код в поле &amp;ldquo;Промокод&amp;rdquo; и нажмите кнопку &amp;ldquo;Применить&amp;rdquo;</content><expected>При клике на поле &amp;ldquo;Промокод&amp;rdquo; надпись Промокод уходит на окантовку, вся окантовка кнопки меняет цвет на зеленый</expected></step>
+<step>
+<index>10</index><content>нажмите кнопку &amp;ldquo;Применить&amp;rdquo;</content><expected>при вводе корректного промокода он применяется, при вводе не корректного промокода появляется окно &amp;ldquo; Промокод {введенный промокод} не найден</expected></step>
+<step>
+<index>11</index><content>нажмите кнопку &amp;ldquo;Оформить&amp;rdquo;</content><expected>переход на этап &amp;ldquo;2.Оформление&amp;rdquo;</expected></step>
+</steps_separated>
+									</custom>
+							</case>
+															<case>
+				<id>C13</id>
+				<title>1-7</title>
+												<template>Test Case (Steps)</template>
+																<type>Functional</type>
+																<priority>Critical</priority>
+																				<estimate></estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>платформа iOS
+браузер Safari</preconds>
+										<steps_separated><step>
+<index>1</index><content>Открыть сайт https://online.sber.insure/store/propertyins/</content><expected>Открывается страница сайта Сбер Страхование с калькулятором страхования</expected></step>
+<step>
+<index>2</index><content>В блоке &amp;ldquo;что будет застраховано&amp;rdquo; выберите &amp;ldquo;Дом&amp;rdquo;</content><expected>кнопка Дом выделена зеленой окантовкой</expected></step>
+<step>
+<index>3</index><content>В блоке &amp;ldquo;Где находится недвижимость&amp;rdquo; выберите регион проживания &amp;ldquo;респ Татарстан&amp;rdquo;</content><expected>при начале ввода названия города окошко для ввода выделяется зеленой окантовкой, по мере ввода букв, появляется выпадающий список с подходящими городами</expected></step>
+<step>
+<index>4</index><content>В блоке &amp;ldquo;Срок действия страхования&amp;rdquo; выберите через календарь дату начала страхования </content><expected>при клике на знак календаря, открывается календарь в котором можно выбрать дату не ранее минимально доступной дате начала страхования (через 14 дней от текущей даты), выбор даты ранее установленной не доступен</expected></step>
+<step>
+<index>5</index><content>В блоке &amp;ldquo;Особенности объекта&amp;rdquo; в строке &amp;ldquo;Сдается в аренду&amp;rdquo; выберите &amp;ldquo;Да&amp;rdquo;</content><expected>кнопка &amp;ldquo;Да&amp;rdquo; при нажатии выделена зеленой окантовкой</expected></step>
+<step>
+<index>6</index><content>В блоке &amp;ldquo;Особенности объекта&amp;rdquo; в строке &amp;ldquo;Установлена охранная сигнализация&amp;rdquo; выберите &amp;ldquo;Нет&amp;rdquo;</content><expected>кнопка &amp;ldquo;Нет&amp;rdquo; при нажатии выделена зеленой окантовкой</expected></step>
+<step>
+<index>7</index><content>В блоке &amp;ldquo;Особенности объекта&amp;rdquo; в строке &amp;ldquo;Материал несущих стен&amp;rdquo; выберите &amp;ldquo;Дерево&amp;rdquo;</content><expected>кнопка &amp;ldquo;Дерево&amp;rdquo; при нажатии выделена зеленой окантовкой
+</expected></step>
+<step>
+<index>8</index><content>В блоке &amp;ldquo;Страховая сумма и объекты страхования&amp;rdquo; измените сумму на 1 300 000 посредством перетаскивания ползунка</content><expected>Страховая сумма успешно изменена на 1 300 000</expected></step>
+<step>
+<index>9</index><content>В блоке &amp;ldquo;Промокод&amp;rdquo; введите промо код в поле &amp;ldquo;Промокод&amp;rdquo; и нажмите кнопку &amp;ldquo;Применить&amp;rdquo;</content><expected>При клике на поле &amp;ldquo;Промокод&amp;rdquo; надпись Промокод уходит на окантовку, вся окантовка кнопки меняет цвет на зеленый</expected></step>
+<step>
+<index>10</index><content> нажмите кнопку &amp;ldquo;Применить&amp;rdquo;</content><expected>при вводе корректного промокода он применяется, при вводе не корректного промокода появляется окно &amp;ldquo; Промокод {введенный промокод} не найден</expected></step>
+<step>
+<index>11</index><content>нажмите кнопку &amp;ldquo;Оформить&amp;rdquo;</content><expected>переход на этап &amp;ldquo;2.Оформление&amp;rdquo;</expected></step>
+</steps_separated>
+									</custom>
+							</case>
+															<case>
+				<id>C14</id>
+				<title>1-8</title>
+												<template>Test Case (Steps)</template>
+																<type>Functional</type>
+																<priority>Critical</priority>
+																				<estimate></estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>платформа MacOS
+браузер Safari</preconds>
+										<steps_separated><step>
+<index>1</index><content>Открыть сайт https://online.sber.insure/store/propertyins/</content><expected>Открывается страница сайта Сбер Страхование с калькулятором страхования</expected></step>
+<step>
+<index>2</index><content>В блоке &amp;ldquo;что будет застраховано&amp;rdquo; выберите &amp;ldquo;Дом&amp;rdquo;</content><expected>кнопка Дом выделена зеленой окантовкой</expected></step>
+<step>
+<index>3</index><content>В блоке &amp;ldquo;Где находится недвижимость&amp;rdquo; выберите регион проживания &amp;ldquo;респ Татарстан&amp;rdquo;</content><expected>при начале ввода названия города окошко для ввода выделяется зеленой окантовкой, по мере ввода букв, появляется выпадающий список с подходящими городами</expected></step>
+<step>
+<index>4</index><content>В блоке &amp;ldquo;Срок действия страхования&amp;rdquo; выберите через календарь дату начала страхования </content><expected>при клике на знак календаря, открывается календарь в котором можно выбрать дату не ранее минимально доступной дате начала страхования (через 14 дней от текущей даты), выбор даты ранее установленной не доступен</expected></step>
+<step>
+<index>5</index><content>В блоке &amp;ldquo;Особенности объекта&amp;rdquo; в строке &amp;ldquo;Сдается в аренду&amp;rdquo; выберите &amp;ldquo;Да&amp;rdquo;</content><expected>кнопка &amp;ldquo;Да&amp;rdquo; при нажатии выделена зеленой окантовкой</expected></step>
+<step>
+<index>6</index><content>В блоке &amp;ldquo;Особенности объекта&amp;rdquo; в строке &amp;ldquo;Установлена охранная сигнализация&amp;rdquo; выберите &amp;ldquo;Нет&amp;rdquo;</content><expected>кнопка &amp;ldquo;Нет&amp;rdquo; при нажатии выделена зеленой окантовкой</expected></step>
+<step>
+<index>7</index><content>В блоке &amp;ldquo;Особенности объекта&amp;rdquo; в строке &amp;ldquo;Материал несущих стен&amp;rdquo; выберите &amp;ldquo;Дерево&amp;rdquo;</content><expected>кнопка &amp;ldquo;Дерево&amp;rdquo; при нажатии выделена зеленой окантовкой
+</expected></step>
+<step>
+<index>8</index><content>В блоке &amp;ldquo;Страховая сумма и объекты страхования&amp;rdquo; измените сумму на 1 300 000 посредством перетаскивания ползунка</content><expected>Страховая сумма успешно изменена на 1 300 000</expected></step>
+<step>
+<index>9</index><content>В блоке &amp;ldquo;Промокод&amp;rdquo; введите промо код в поле &amp;ldquo;Промокод&amp;rdquo; и нажмите кнопку &amp;ldquo;Применить&amp;rdquo;</content><expected>При клике на поле &amp;ldquo;Промокод&amp;rdquo; надпись Промокод уходит на окантовку, вся окантовка кнопки меняет цвет на зеленый</expected></step>
+<step>
+<index>10</index><content> нажмите кнопку &amp;ldquo;Применить&amp;rdquo;</content><expected>при вводе корректного промокода он применяется, при вводе не корректного промокода появляется окно &amp;ldquo; Промокод {введенный промокод} не найден</expected></step>
+<step>
+<index>11</index><content>нажмите кнопку &amp;ldquo;Оформить&amp;rdquo;</content><expected>переход на этап &amp;ldquo;2.Оформление&amp;rdquo;</expected></step>
+</steps_separated>
+									</custom>
+							</case>
+								</cases>
+							</section>
+			<section>
+		<name>Оформление полиса</name>
+		<description></description>
+						<cases>
+												<case>
+				<id>C5</id>
+				<title>2-1</title>
+												<template>Test Case (Steps)</template>
+																<type>Functional</type>
+																<priority>Critical</priority>
+																				<estimate>300</estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>платформа iOS
+браузер Safari
+
+успешно пройден 1 этап (Выбор полиса)
+
+есть активный аккаунт СБЕР ID</preconds>
+										<steps_separated><step>
+<index>1</index><content>В разделе &amp;ldquo;2.Оформление&amp;rdquo; нажмите кнопку &amp;ldquo;Заполнить по Сбер ID&amp;rdquo;</content><expected>переход на страницу авторизации</expected></step>
+<step>
+<index>2</index><content>в открывшемся окне нажмите &amp;ldquo;Получить PUSH&amp;rdquo;</content><expected>в мобильное приложение СБОЛ отправлено уведомление </expected></step>
+<step>
+<index>3</index><content>В мобильном париложении СБОЛ нажмите кнопку &amp;ldquo;Подтвердить&amp;rdquo;</content><expected>произошло автоматическое заполнение данных пользователя</expected></step>
+<step>
+<index>4</index><content>В блоке &amp;ldquo;Адрес имущества&amp;rdquo; заполняем строку: Город или населенный пункт</content><expected>при клике на блок он выделяется зеленой окантовкой, при вводе названия города в выпадающем списке предлагаются подходящие варианты названий городов </expected></step>
+<step>
+<index>5</index><content>В блоке &amp;ldquo;Адрес имущества&amp;rdquo; заполняем строку: Улица</content><expected>при клике на блок он выделяется зеленой окантовкой, при вводе названия улицы в выпадающем списке предлагаются подходящие варианты названий улиц</expected></step>
+<step>
+<index>6</index><content>В блоке &amp;ldquo;Адрес имущества&amp;rdquo; заполняем строку: Дом,литера,корпус,строение</content><expected>при клике на блок он выделяется зеленой окантовкой</expected></step>
+<step>
+<index>7</index><content>В блоке &amp;ldquo;Адрес имущества&amp;rdquo; заполняем строку: Квартира</content><expected>при клике на блок он выделяется зеленой окантовкой</expected></step>
+<step>
+<index>8</index><content>В блоке &amp;ldquo;контактные данные страхователя&amp;rdquo; заполняем строку &amp;ldquo;Электронная почта&amp;rdquo;</content><expected>при клике на блок он выделяется зеленой окантовкой, можно ввести цифры, буквы, специальные символы</expected></step>
+<step>
+<index>9</index><content>В блоке &amp;ldquo;контактные данные страхователя&amp;rdquo; заполняем строку &amp;ldquo;Повтор электронной почты&amp;rdquo;</content><expected>при клике на блок он выделяется зеленой окантовкой, можно ввести цифры, буквы, специальные символы</expected></step>
+<step>
+<index>10</index><content>нажмите кнопку &amp;ldquo;Оформить&amp;rdquo;</content><expected>переход в раздел &amp;ldquo;3.Подтверждение&amp;rdquo;</expected></step>
+</steps_separated>
+									</custom>
+							</case>
+															<case>
+				<id>C6</id>
+				<title>2-2</title>
+												<template>Test Case (Steps)</template>
+																<type>Functional</type>
+																<priority>Critical</priority>
+																				<estimate>300</estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>платформа MacOS
+браузер Safari
+
+успешно пройден 1 этап (Выбор полиса)
+
+есть активный аккаунт СБЕР ID</preconds>
+										<steps_separated><step>
+<index>1</index><content>В разделе &amp;ldquo;2.Оформление&amp;rdquo; нажмите кнопку &amp;ldquo;Заполнить по Сбер ID&amp;rdquo;</content><expected>переход на страницу авторизации</expected></step>
+<step>
+<index>2</index><content>в открывшемся окне нажмите &amp;ldquo;Получить PUSH&amp;rdquo;</content><expected>в мобильное приложение СБОЛ отправлено уведомление </expected></step>
+<step>
+<index>3</index><content>В мобильном париложении СБОЛ нажмите кнопку &amp;ldquo;Подтвердить&amp;rdquo;</content><expected>произошло автоматическое заполнение данных пользователя</expected></step>
+<step>
+<index>4</index><content>В блоке &amp;ldquo;Адрес имущества&amp;rdquo; заполняем строку: Город или населенный пункт</content><expected>при клике на блок он выделяется зеленой окантовкой, при вводе названия города в выпадающем списке предлагаются подходящие варианты названий городов </expected></step>
+<step>
+<index>5</index><content>В блоке &amp;ldquo;Адрес имущества&amp;rdquo; заполняем строку: Улица</content><expected>при клике на блок он выделяется зеленой окантовкой, при вводе названия улицы в выпадающем списке предлагаются подходящие варианты названий улиц</expected></step>
+<step>
+<index>6</index><content>В блоке &amp;ldquo;Адрес имущества&amp;rdquo; заполняем строку: Дом,литера,корпус,строение</content><expected>при клике на блок он выделяется зеленой окантовкой</expected></step>
+<step>
+<index>7</index><content>В блоке &amp;ldquo;Адрес имущества&amp;rdquo; заполняем строку: Квартира</content><expected>при клике на блок он выделяется зеленой окантовкой</expected></step>
+<step>
+<index>8</index><content>В блоке &amp;ldquo;контактные данные страхователя&amp;rdquo; заполняем строку &amp;ldquo;Электронная почта&amp;rdquo;</content><expected>при клике на блок он выделяется зеленой окантовкой, можно ввести цифры, буквы, специальные символы</expected></step>
+<step>
+<index>9</index><content>В блоке &amp;ldquo;контактные данные страхователя&amp;rdquo; заполняем строку &amp;ldquo;Повтор электронной почты&amp;rdquo;</content><expected>при клике на блок он выделяется зеленой окантовкой, можно ввести цифры, буквы, специальные символы</expected></step>
+<step>
+<index>10</index><content>нажмите кнопку &amp;ldquo;Оформить&amp;rdquo;</content><expected>переход в раздел &amp;ldquo;3.Подтверждение&amp;rdquo;
+</expected></step>
+</steps_separated>
+									</custom>
+							</case>
+															<case>
+				<id>C9</id>
+				<title>2-3</title>
+												<template>Test Case (Steps)</template>
+																<type>Usability</type>
+																<priority>Medium</priority>
+																				<estimate>60</estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>платформа MacOS
+браузер Safari
+
+успешно пройден 1 этап (Выбор полиса)</preconds>
+										<steps_separated><step>
+<index>1</index><content>В разделе &amp;ldquo;2.Оформление&amp;rdquo; нажмите кнопку &amp;ldquo;Вернуться&amp;rdquo;</content><expected>произошел переход в предыдущий раздел, все ранее введенные данные сохранены в своих полях</expected></step>
+</steps_separated>
+									</custom>
+							</case>
+															<case>
+				<id>C10</id>
+				<title>2-4</title>
+												<template>Test Case (Steps)</template>
+																<type>Usability</type>
+																<priority>Medium</priority>
+																				<estimate>60</estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>платформа iOS
+браузер Safari
+
+успешно пройден 1 этап (Выбор полиса)</preconds>
+										<steps_separated><step>
+<index>1</index><content>В разделе &amp;ldquo;2.Оформление&amp;rdquo; нажмите кнопку &amp;ldquo;Вернуться&amp;rdquo;</content><expected>произошел переход в предыдущий раздел, все ранее введенные данные сохранены в своих полях</expected></step>
+</steps_separated>
+									</custom>
+							</case>
+															<case>
+				<id>C15</id>
+				<title>2-5</title>
+												<template>Test Case (Steps)</template>
+																<type>Functional</type>
+																<priority>Critical</priority>
+																				<estimate>300</estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>платформа iOS
+браузер Safari
+
+успешно пройден 1 этап (Выбор полиса)
+
+есть активный аккаунт СБЕР ID</preconds>
+										<steps_separated><step>
+<index>1</index><content>В разделе &amp;ldquo;2.Оформление&amp;rdquo; нажмите кнопку &amp;ldquo;Заполнить по Сбер ID&amp;rdquo;</content><expected>переход на страницу авторизации</expected></step>
+<step>
+<index>2</index><content>в открывшемся окне нажмите &amp;ldquo;Получить PUSH&amp;rdquo;</content><expected>в мобильное приложение СБОЛ отправлено уведомление </expected></step>
+<step>
+<index>3</index><content>В мобильном париложении СБОЛ нажмите кнопку &amp;ldquo;Подтвердить&amp;rdquo;</content><expected>произошло автоматическое заполнение данных пользователя</expected></step>
+<step>
+<index>4</index><content>В блоке &amp;ldquo;Адрес имущества&amp;rdquo; заполняем строку: Город или населенный пункт</content><expected>при клике на блок он выделяется зеленой окантовкой, при вводе названия города в выпадающем списке предлагаются подходящие варианты названий городов </expected></step>
+<step>
+<index>5</index><content>В блоке &amp;ldquo;Адрес имущества&amp;rdquo; заполняем строку: Улица</content><expected>при клике на блок он выделяется зеленой окантовкой, при вводе названия улицы в выпадающем списке предлагаются подходящие варианты названий улиц</expected></step>
+<step>
+<index>6</index><content>В блоке &amp;ldquo;Адрес имущества&amp;rdquo; заполняем строку: Дом,литера,корпус,строение</content><expected>при клике на блок он выделяется зеленой окантовкой</expected></step>
+<step>
+<index>7</index><content>В блоке &amp;ldquo;Адрес имущества&amp;rdquo; не заполняем строку: Квартира</content><expected>данная строка здесь не является обязательной</expected></step>
+<step>
+<index>8</index><content>В блоке &amp;ldquo;контактные данные страхователя&amp;rdquo; заполняем строку &amp;ldquo;Электронная почта&amp;rdquo;</content><expected>при клике на блок он выделяется зеленой окантовкой, можно ввести цифры, буквы, специальные символы</expected></step>
+<step>
+<index>9</index><content>В блоке &amp;ldquo;контактные данные страхователя&amp;rdquo; заполняем строку &amp;ldquo;Повтор электронной почты&amp;rdquo;</content><expected>при клике на блок он выделяется зеленой окантовкой, можно ввести цифры, буквы, специальные символы</expected></step>
+<step>
+<index>10</index><content>нажмите кнопку &amp;ldquo;Оформить&amp;rdquo;</content><expected>переход в раздел &amp;ldquo;3.Подтверждение&amp;rdquo;</expected></step>
+</steps_separated>
+									</custom>
+							</case>
+															<case>
+				<id>C16</id>
+				<title>2-6</title>
+												<template>Test Case (Steps)</template>
+																<type>Functional</type>
+																<priority>Critical</priority>
+																				<estimate>300</estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>платформа MacOS
+браузер Safari
+
+успешно пройден 1 этап (Выбор полиса)
+
+есть активный аккаунт СБЕР ID</preconds>
+										<steps_separated><step>
+<index>1</index><content>В разделе &amp;ldquo;2.Оформление&amp;rdquo; нажмите кнопку &amp;ldquo;Заполнить по Сбер ID&amp;rdquo;</content><expected>переход на страницу авторизации</expected></step>
+<step>
+<index>2</index><content>в открывшемся окне нажмите &amp;ldquo;Получить PUSH&amp;rdquo;</content><expected>в мобильное приложение СБОЛ отправлено уведомление </expected></step>
+<step>
+<index>3</index><content>В мобильном париложении СБОЛ нажмите кнопку &amp;ldquo;Подтвердить&amp;rdquo;</content><expected>произошло автоматическое заполнение данных пользователя</expected></step>
+<step>
+<index>4</index><content>В блоке &amp;ldquo;Адрес имущества&amp;rdquo; заполняем строку: Город или населенный пункт</content><expected>при клике на блок он выделяется зеленой окантовкой, при вводе названия города в выпадающем списке предлагаются подходящие варианты названий городов </expected></step>
+<step>
+<index>5</index><content>В блоке &amp;ldquo;Адрес имущества&amp;rdquo; заполняем строку: Улица</content><expected>при клике на блок он выделяется зеленой окантовкой, при вводе названия улицы в выпадающем списке предлагаются подходящие варианты названий улиц</expected></step>
+<step>
+<index>6</index><content>В блоке &amp;ldquo;Адрес имущества&amp;rdquo; заполняем строку: Дом,литера,корпус,строение</content><expected>при клике на блок он выделяется зеленой окантовкой</expected></step>
+<step>
+<index>7</index><content>В блоке &amp;ldquo;Адрес имущества&amp;rdquo; не заполняем строку: Квартира</content><expected>данная строка здесь не является обязательной</expected></step>
+<step>
+<index>8</index><content>В блоке &amp;ldquo;контактные данные страхователя&amp;rdquo; заполняем строку &amp;ldquo;Электронная почта&amp;rdquo;</content><expected>при клике на блок он выделяется зеленой окантовкой, можно ввести цифры, буквы, специальные символы</expected></step>
+<step>
+<index>9</index><content>В блоке &amp;ldquo;контактные данные страхователя&amp;rdquo; заполняем строку &amp;ldquo;Повтор электронной почты&amp;rdquo;</content><expected>при клике на блок он выделяется зеленой окантовкой, можно ввести цифры, буквы, специальные символы</expected></step>
+<step>
+<index>10</index><content>нажмите кнопку &amp;ldquo;Оформить&amp;rdquo;</content><expected>переход в раздел &amp;ldquo;3.Подтверждение&amp;rdquo;</expected></step>
+</steps_separated>
+									</custom>
+							</case>
+															<case>
+				<id>C17</id>
+				<title>2-7</title>
+												<template>Test Case (Steps)</template>
+																<type>Usability</type>
+																<priority>Medium</priority>
+																				<estimate>60</estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>платформа MacOS
+браузер Safari
+
+успешно пройден 1 этап (Выбор полиса)</preconds>
+										<steps_separated><step>
+<index>1</index><content>В разделе &amp;ldquo;2.Оформление&amp;rdquo; нажмите кнопку &amp;ldquo;Вернуться&amp;rdquo;</content><expected>произошел переход в предыдущий раздел, все ранее введенные данные сохранены в своих полях</expected></step>
+</steps_separated>
+									</custom>
+							</case>
+															<case>
+				<id>C18</id>
+				<title>2-8</title>
+												<template>Test Case (Steps)</template>
+																<type>Usability</type>
+																<priority>Medium</priority>
+																				<estimate>60</estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>платформа iOS
+браузер Safari
+
+успешно пройден 1 этап (Выбор полиса)</preconds>
+										<steps_separated><step>
+<index>1</index><content>В разделе &amp;ldquo;2.Оформление&amp;rdquo; нажмите кнопку &amp;ldquo;Вернуться&amp;rdquo;</content><expected>произошел переход в предыдущий раздел, все ранее введенные данные сохранены в своих полях</expected></step>
+</steps_separated>
+									</custom>
+							</case>
+								</cases>
+							</section>
+			<section>
+		<name>Подтверждение полиса</name>
+		<description></description>
+						<cases>
+												<case>
+				<id>C7</id>
+				<title>3-1</title>
+												<template>Test Case (Steps)</template>
+																<type>Functional</type>
+																<priority>Medium</priority>
+																				<estimate>300</estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>платформа MacOS
+браузер Safari
+
+успешно пройден 1 этап (Выбор полиса) и 2 этап (Оформление полиса)
+
+
+</preconds>
+										<steps_separated><step>
+<index>1</index><content>в разделе &amp;ldquo;3.Подтверждение&amp;rdquo; отметьте чек-бокс &amp;ldquo;Данные проверены и не содержат ошибок&amp;rdquo;</content><expected>чек-бокс успешно отмечен, открылись новые чек-боксы, на указанный при оформлении номер телефона поступила СМС с кодом подтверждения</expected></step>
+<step>
+<index>2</index><content>отметьте чек-бокс &amp;ldquo;Выражаю своё согласие &amp;hellip; моих персональных данных&amp;rdquo;</content><expected>чек-бокс успешно отмечен</expected></step>
+<step>
+<index>3</index><content>отметьте чек-бокс &amp;ldquo;Выражаю своё согласие &amp;hellip; сопутствующим услугам&amp;rdquo;</content><expected>чек-бокс успешно отмечен</expected></step>
+<step>
+<index>4</index><content>в блоке для ввода СМС кода введите полученные код</content><expected>после ввода 4 цифр, контур блока подсвечен зеленым, кнопка &amp;ldquo;Перейти к оплате&amp;rdquo; стала активной (закрашена черным цветом)</expected></step>
+<step>
+<index>5</index><content>нажмите кнопку &amp;ldquo;Перейти к оплате&amp;rdquo;</content><expected>успешный переход в раздел &amp;ldquo;4.Оплата&amp;rdquo;</expected></step>
+</steps_separated>
+									</custom>
+							</case>
+															<case>
+				<id>C8</id>
+				<title>3-2</title>
+												<template>Test Case (Steps)</template>
+																<type>Functional</type>
+																<priority>Medium</priority>
+																				<estimate>300</estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>платформа iOS
+браузер Safari
+
+успешно пройден 1 этап (Выбор полиса) и 2 этап (Оформление полиса)
+
+
+</preconds>
+										<steps_separated><step>
+<index>1</index><content>в разделе &amp;ldquo;3.Подтверждение&amp;rdquo; отметьте чек-бокс &amp;ldquo;Данные проверены и не содержат ошибок&amp;rdquo;</content><expected>чек-бокс успешно отмечен, открылись новые чек-боксы, на указанный при оформлении номер телефона поступила СМС с кодом подтверждения</expected></step>
+<step>
+<index>2</index><content>отметьте чек-бокс &amp;ldquo;Выражаю своё согласие &amp;hellip; моих персональных данных&amp;rdquo;</content><expected>чек-бокс успешно отмечен</expected></step>
+<step>
+<index>3</index><content>отметьте чек-бокс &amp;ldquo;Выражаю своё согласие &amp;hellip; сопутствующим услугам&amp;rdquo;</content><expected>чек-бокс успешно отмечен</expected></step>
+<step>
+<index>4</index><content>в блоке для ввода СМС кода введите полученные код</content><expected>после ввода 4 цифр, контур блока подсвечен зеленым, кнопка &amp;ldquo;Перейти к оплате&amp;rdquo; стала активной (закрашена черным цветом)</expected></step>
+<step>
+<index>5</index><content>нажмите кнопку &amp;ldquo;Перейти к оплате&amp;rdquo;</content><expected>успешный переход в раздел &amp;ldquo;4.Оплата&amp;rdquo;</expected></step>
+</steps_separated>
+									</custom>
+							</case>
+															<case>
+				<id>C19</id>
+				<title>3-3</title>
+												<template>Test Case (Steps)</template>
+																<type>Functional</type>
+																<priority>Medium</priority>
+																				<estimate>300</estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>платформа MacOS
+браузер Safari
+
+успешно пройден 1 этап (Выбор полиса) и 2 этап (Оформление полиса)
+
+
+</preconds>
+										<steps_separated><step>
+<index>1</index><content>в разделе &amp;ldquo;3.Подтверждение&amp;rdquo; отметьте чек-бокс &amp;ldquo;Данные проверены и не содержат ошибок&amp;rdquo;</content><expected>чек-бокс успешно отмечен, открылись новые чек-боксы, на указанный при оформлении номер телефона поступила СМС с кодом подтверждения</expected></step>
+<step>
+<index>2</index><content>отметьте чек-бокс &amp;ldquo;Выражаю своё согласие &amp;hellip; моих персональных данных&amp;rdquo;</content><expected>чек-бокс успешно отмечен</expected></step>
+<step>
+<index>3</index><content>отметьте чек-бокс &amp;ldquo;Выражаю своё согласие &amp;hellip; сопутствующим услугам&amp;rdquo;</content><expected>чек-бокс успешно отмечен</expected></step>
+<step>
+<index>4</index><content>в блоке для ввода СМС кода введите полученные код</content><expected>после ввода 4 цифр, контур блока подсвечен зеленым, кнопка &amp;ldquo;Перейти к оплате&amp;rdquo; стала активной (закрашена черным цветом)</expected></step>
+<step>
+<index>5</index><content>нажмите кнопку &amp;ldquo;Перейти к оплате&amp;rdquo;</content><expected>успешный переход в раздел &amp;ldquo;4.Оплата&amp;rdquo;</expected></step>
+</steps_separated>
+									</custom>
+							</case>
+															<case>
+				<id>C20</id>
+				<title>3-4</title>
+												<template>Test Case (Steps)</template>
+																<type>Functional</type>
+																<priority>Medium</priority>
+																				<estimate>300</estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>платформа iOS
+браузер Safari
+
+успешно пройден 1 этап (Выбор полиса) и 2 этап (Оформление полиса)
+
+
+</preconds>
+										<steps_separated><step>
+<index>1</index><content>в разделе &amp;ldquo;3.Подтверждение&amp;rdquo; отметьте чек-бокс &amp;ldquo;Данные проверены и не содержат ошибок&amp;rdquo;</content><expected>чек-бокс успешно отмечен, открылись новые чек-боксы, на указанный при оформлении номер телефона поступила СМС с кодом подтверждения</expected></step>
+<step>
+<index>2</index><content>отметьте чек-бокс &amp;ldquo;Выражаю своё согласие &amp;hellip; моих персональных данных&amp;rdquo;</content><expected>чек-бокс успешно отмечен</expected></step>
+<step>
+<index>3</index><content>отметьте чек-бокс &amp;ldquo;Выражаю своё согласие &amp;hellip; сопутствующим услугам&amp;rdquo;</content><expected>чек-бокс успешно отмечен</expected></step>
+<step>
+<index>4</index><content>в блоке для ввода СМС кода введите полученные код</content><expected>после ввода 4 цифр, контур блока подсвечен зеленым, кнопка &amp;ldquo;Перейти к оплате&amp;rdquo; стала активной (закрашена черным цветом)</expected></step>
+<step>
+<index>5</index><content>нажмите кнопку &amp;ldquo;Перейти к оплате&amp;rdquo;</content><expected>успешный переход в раздел &amp;ldquo;4.Оплата&amp;rdquo;</expected></step>
+</steps_separated>
+									</custom>
+							</case>
+								</cases>
+							</section>
+	</sections>
+</suite>
