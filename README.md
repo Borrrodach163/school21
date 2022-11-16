@@ -1,2 +1,2 @@
 # school21
-https://disk.yandex.ru/i/FVVqmydvTZcplQ
+Видео с защиты: https://disk.yandex.ru/i/FVVqmydvTZcplQ
